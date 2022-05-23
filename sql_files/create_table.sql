@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS DAG_EXECUTION_LOG(execution_date timestamp);

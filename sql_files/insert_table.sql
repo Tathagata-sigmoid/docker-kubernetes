@@ -1,0 +1,1 @@
+insert into DAG_EXECUTION_LOG values(CURRENT_TIMESTAMP AT TIME ZONE 'Asia/Kolkata');
