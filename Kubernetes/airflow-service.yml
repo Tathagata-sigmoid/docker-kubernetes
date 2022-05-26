@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: airflow-service
+  labels:
+    name: airflow-service
+    app: myapp
+spec:
+  type: NodePort
+  ports:
+    - port:  8080
+      targetPort: 8080
+  selector:
+    name: airflow-pod
+    app: myapp
